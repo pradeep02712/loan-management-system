@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs';
-import jwt from 'jsonwebtoken';
+import jwt, { type SignOptions } from 'jsonwebtoken';
 import { env } from '../config/env';
 import { Roles } from '../constants/enums';
 import { User } from '../models/User';
@@ -7,9 +7,8 @@ import { registerSchema, loginSchema } from '../validation/auth.validation';
 import { ApiError, asyncHandler, ok } from '../utils/http';
 
 function signToken(user: { id: string; role: string }) {
-  return jwt.sign({ sub: user.id, role: user.role }, env.jwtSecret, {
-    expiresIn: env.jwtExpiresIn
-  });
+  const options: SignOptions = { expiresIn: env.jwtExpiresIn as SignOptions['expiresIn'] };
+  return jwt.sign({ sub: user.id, role: user.role }, env.jwtSecret, options);
 }
 
 export const register = asyncHandler(async (req, res) => {

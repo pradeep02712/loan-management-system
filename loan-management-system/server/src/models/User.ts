@@ -30,11 +30,12 @@ userSchema.methods.comparePassword = function comparePassword(password: string) 
 
 userSchema.set('toJSON', {
   transform(_doc, ret) {
-    ret.id = ret._id.toString();
-    delete ret._id;
-    delete ret.__v;
-    delete ret.passwordHash;
-    return ret;
+    const r = ret as any;
+    r.id = r._id.toString();
+    delete r._id;
+    delete r.__v;
+    delete r.passwordHash;
+    return r;
   }
 });
 
