@@ -13,8 +13,7 @@ https://loan-management-system-production-857b.up.railway.app/api
 GitHub Repository:  
 https://github.com/pradeep02712/loan-management-system
 
-Working Video:  
-PASTE_YOUR_VIDEO_LINK_HERE
+
 
 ## Login Credentials
 
