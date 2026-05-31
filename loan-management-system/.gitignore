@@ -1,0 +1,16 @@
+node_modules/
+server/node_modules/
+client/node_modules/
+.env
+.env.local
+server/.env
+client/.env.local
+.next/
+client/.next/
+dist/
+build/
+coverage/
+uploads/
+server/uploads/*
+npm-debug.log*
+.DS_Store

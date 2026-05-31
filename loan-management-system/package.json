@@ -1,0 +1,17 @@
+{
+  "name": "loan-management-system",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Full-stack Loan Management System assignment built with Next.js, Express, TypeScript and MongoDB.",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix server run build && npm --prefix client run build",
+    "seed": "npm --prefix server run seed",
+    "lint": "npm --prefix client run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md,css}\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "prettier": "^3.3.3"
+  }
+}
