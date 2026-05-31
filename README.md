@@ -211,7 +211,7 @@ Total Repayment = P + SI
 
 
 Working Video:
-[PASTE_YOUR_VIDEO_LINK_HERE](https://drive.google.com/file/d/1Wqnj3VRALAA_Y-2mOFFHvoMrrOkaV3q-/view?usp=drivesdk)
+[_LINK_](https://drive.google.com/file/d/1Wqnj3VRALAA_Y-2mOFFHvoMrrOkaV3q-/view?usp=drivesdk)
 
 Login Credentials:
 Admin - admin@lms.dev / Password@123
