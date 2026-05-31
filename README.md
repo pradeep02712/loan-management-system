@@ -4,7 +4,10 @@ A full-stack Loan Management System built for the MERN/Next.js assignment workfl
 
 ## Live Links
 
-Frontend Live App:  
+Working Video:
+[_LINK_](https://drive.google.com/file/d/1Wqnj3VRALAA_Y-2mOFFHvoMrrOkaV3q-/view?usp=drivesdk)
+
+Live App:  
 https://striking-wisdom-production-cf16.up.railway.app
 
 Backend API:  
